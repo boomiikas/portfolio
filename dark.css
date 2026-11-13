@@ -50,10 +50,12 @@
 body{background:#11140f;color:#eef0e6}
 .topbar{border-color:#30352b}.nav-links a{color:#a5a99b}.nav-links a:hover,.top-contact:hover{color:#d6e25b}.top-contact,.wordmark{color:#eef0e6}
 .header-actions{display:flex;align-items:center;gap:22px}.resume-link{color:#dbe4a0;font:10px var(--mono);letter-spacing:.04em;text-decoration:none;border:1px solid #485036;padding:9px 11px;transition:background .2s,border .2s}.resume-link:hover{background:#222819;border-color:#899346}
+.wordmark{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;flex:0 0 40px}.wordmark img{display:block;width:100%;height:100%}.footer .wordmark{width:34px;height:34px;flex-basis:34px}
 .hero-intro,.about-copy p,.section-heading>p,.project-info p,.tool-group p,.timeline-content p{color:#a4a899}
 .about,.wins{background:#181c16}.about h2 span{color:#c3d34f}.quick-facts,.quick-facts div{border-color:#34392e}.quick-facts span:not(.plus){color:#a3a797}
 .work-section,.journey{background:#11140f}.project-card{background:#1a1e18}.project-number,.project-footer{color:#a7ac9b}.project-tags span{border-color:#3b4034;color:#b7bcaa}.project-footer{border-color:#383d32}.project-footer a,.under-link{color:#d6e25b}.under-link{border-color:#59603c}
 .toolkit{background:#20251c}.toolkit-grid,.tool-group{border-color:#3b4132}.tool-index,.spoken>span:first-child{color:#c1cb75}.tool-group p,.spoken .spoken-note{color:#aeb39e}.spoken b{color:#edf0e3}.spoken b i{color:#c3c8b1;background:#30372a}
 .timeline{border-color:#34392e}.timeline-row{border-color:#34392e}.timeline-date,.timeline-title>span,.timeline-content p,.wins-list small{color:#a6aa9d}.timeline-tags span{color:#d3de8a;background:#262d20}.wins h2 i{color:#acb09f}.wins-list>div,.wins-list>div:first-child{border-color:#383d32}.wins-list>div>span{color:#c0c4b5}
 .contact{background:#20251c}.footer{background:#0c0f0b}.button-dark{background:#d6e25b;color:#1c2113}.button-dark:hover{background:#e4ed8e}.text-link{color:#e5e8dc;border-color:#586044}.hero-note,.portrait-caption,.scroll-cue{color:#a4a895}.portrait-frame img{object-position:50% 23%}
+@media(max-width:640px){.wordmark{width:36px;height:36px;flex-basis:36px}}
 @media(max-width:640px){.header-actions{gap:12px}.resume-link{font-size:9px;padding:8px}.top-contact{font-size:9px}.hero-actions{flex-wrap:wrap;gap:16px}.contact-links{row-gap:13px}}

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">BS monogram</title>
+  <rect x="2" y="2" width="60" height="60" rx="18" fill="#d6e25b"/>
+  <text x="30" y="43" fill="#20251c" font-family="Arial, sans-serif" font-size="27" font-weight="800" letter-spacing="-2" text-anchor="middle">BS</text>
+  <circle cx="49" cy="47" r="3" fill="#c67254"/>
+</svg>
